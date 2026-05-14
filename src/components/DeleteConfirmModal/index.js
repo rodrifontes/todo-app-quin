@@ -5,7 +5,7 @@ import { ActionsContainer } from './styles';
 
 export default function DeleteConfirmModal({ onClose, onConfirm, visible }) {
   return (
-    <CustomModal visible={visible}>
+    <CustomModal visible={visible} onClose={onClose}>
       <Text
         size={18}
         weight="600"
